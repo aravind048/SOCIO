@@ -1,0 +1,47 @@
+/* src/App.css */
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+.registration-container {
+  width: 300px;
+  margin: 50px auto 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.registration-container label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.registration-container input {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.registration-container button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  background-color: #007BFF;
+  color: white;
+  cursor: pointer;
+}
+
+.registration-container button:hover {
+  background-color: #0056b3;
+}
